@@ -1,0 +1,5 @@
+{
+  "name": "Vocalize AI",
+  "description": "A human-realistic Text-to-Speech application supporting English and Tamil using the Gemini API.",
+  "requestFramePermissions": []
+}
