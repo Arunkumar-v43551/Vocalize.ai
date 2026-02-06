@@ -1,20 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Gemini TTS Voice Module 🔊
 
-# Run and deploy your AI Studio app
+A custom-built Text-to-Speech (TTS) application that converts text input into natural-sounding speech using the Gemini API.  
+Designed for easy local development, extension, and deployment into real-world applications.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_z_4BvXKvvrsAAnx66h986XE_2wfAufF
+## ✨ Overview
 
-## Run Locally
+This project provides a simple yet extensible TTS voice module that can be used in:
+- AI assistants
+- Voice-enabled web apps
+- Accessibility tools
+- Learning platforms
 
-**Prerequisites:**  Node.js
+The architecture is intentionally modular so additional features like emotion control, voice styles, or streaming audio can be added later.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Features
+
+- Text-to-Speech conversion using Gemini
+- Real-time voice generation
+- Lightweight Node.js setup
+- Clean and extensible codebase
+- Ready for deployment
+
+---
+
+## 🛠 Tech Stack
+
+- Node.js
+- Gemini API
+- JavaScript
+- HTML / CSS (UI layer)
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js (v18 or later recommended)
+- Gemini API Key
+
+---
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/gemini-tts-voice-module.git
+cd gemini-tts-voice-module
